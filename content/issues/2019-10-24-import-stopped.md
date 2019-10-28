@@ -1,6 +1,7 @@
 ---
 title: Import Stopped
 date: 2019-10-24 16:24:00
+resolved: false
 severity: down
 affected:
   - Import
