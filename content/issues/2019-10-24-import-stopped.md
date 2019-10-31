@@ -1,7 +1,8 @@
 ---
 title: Import Stopped
 date: 2019-10-24 16:24:00
-resolved: false
+resolved: true
+resolvedWhen: 2019-10-30 12:00:00
 severity: down
 affected:
   - Import
