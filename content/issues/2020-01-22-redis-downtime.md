@@ -1,6 +1,6 @@
 ---
-title: Down
-date: 2020-01-22 15::56:09
+title: Redis Down
+date: 2020-01-22 15:56:09
 resolved: true
 resolvedWhen: 2020-01-22 15:01:21
 severity: disrupted
