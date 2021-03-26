@@ -1,8 +1,8 @@
 ---
 title: All AcoustID services are unavailable
-date: 2021-03-02 15:00
+date: 2021-03-02 15:00:00
 resolved: true
-resolvedWhen: 2021-03-05 12:00
+resolvedWhen: 2021-03-05 12:00:00
 severity: down
 affected:
   - API
