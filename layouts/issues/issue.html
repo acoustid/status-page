@@ -20,11 +20,12 @@
 
   <p><small>
     {{ range .Params.Affected }}
-      <a href="/affected/{{ . | urlize }}" class="tag no-underline">{{ . }}</a>
+      <a href="{{ printf "/affected/%s/" (. | urlize) | relURL }}" class="tag no-underline">{{ . }}</a>
     {{ end }}
   </small></p>
 
-  {{ if .Params.Resolved }}
+  {{ if .Params.informational }}
+  {{ else if .Params.Resolved }}
   {{ $t := (time .Params.ResolvedWhen) }}
   {{ $timeDiff := (sub $t.Unix .Date.Unix) }}
   {{ $diffInMin := (div $timeDiff 60) }}
@@ -79,7 +80,15 @@
     {{ end }}
   {{ end }}
   {{ else }}
-    <strong class="error">{{ T "downtimeOngoing" }}</strong>
+    <strong class="error">
+      {{ if eq .Params.severity "down" }}
+      ■ 
+      {{ else if eq .Params.severity "disrupted" }}
+      ▲ 
+      {{ else }}
+      ◆ 
+      {{ end }}
+      {{ T "downtimeOngoing" }}</strong>
   {{ end }}
 
   <hr>
