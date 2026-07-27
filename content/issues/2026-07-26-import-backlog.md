@@ -18,4 +18,7 @@ above the normal rate, and expect the backlog to clear this afternoon.
 **Update, 12:30 UTC:** about 143,000 remaining. Processing continues at around
 55,000 per hour. Still expected to clear this afternoon.
 
+**Update, 13:30 UTC:** about 80,000 remaining, and processing has picked up to
+around 85,000 per hour. We expect the backlog to clear shortly.
+
 Lookups and the website are not affected.
