@@ -8,11 +8,12 @@ affected:
 section: issue
 ---
 
-**In progress since 14:41 UTC.** With the submission backlog cleared, we are
-moving the ingest database to a new cluster.
+**As of 14:50 UTC:** the migration is done and **processing has resumed**.
+Submissions are being accepted and processed normally again, and the queue is
+clear.
 
-**Submissions are being accepted normally**, but processing is paused while the
-migration runs, so the number of queued submissions will grow and then clear
-once processing resumes. Nothing is lost.
+A small number of submissions that were queued at the moment of the switchover
+are still to be transferred from the old database. They will be processed
+shortly, so the queued count may move briefly again. Nothing is lost.
 
-Lookups and the website are not affected.
+Lookups and the website were not affected at any point.
