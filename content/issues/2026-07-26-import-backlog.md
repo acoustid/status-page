@@ -9,7 +9,10 @@ section: issue
 ---
 
 Submitted fingerprints are taking longer than usual to appear. Nothing has been
-lost — submissions are queued and are being processed. The backlog is clearing
-and we expect it to catch up later today.
+lost — submissions are queued and are being processed.
+
+**Update, 11:10 UTC:** about 190,000 submissions are still queued, down from
+473,000 this morning. We are currently processing around 68,000 per hour, well
+above the normal rate, and expect the backlog to clear this afternoon.
 
 Lookups and the website are not affected.
