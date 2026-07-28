@@ -8,11 +8,12 @@ affected:
 section: issue
 ---
 
-**As of 17:50 UTC: the maintenance is largely complete.** Lookups, the website and submissions are all working normally again, and manual edits are available.
+**As of 19:25 UTC: newly submitted fingerprints are being indexed again.** Lookups, the website and submissions are all working normally.
 
-The one thing still outstanding is that newly submitted fingerprints are not yet being indexed. Submissions made in the meantime are queued and nothing is lost; we will update this notice once that has caught up.
+A backlog built up while indexing was paused and is still being worked through, so some fingerprints submitted earlier today will take a while longer to appear. Nothing has been lost. We will resolve this notice once the backlog is clear.
 
 Earlier updates:
 
+- **17:50 UTC** — maintenance largely complete; site and lookups working, indexing still paused.
 - **15:05 UTC** — running longer than expected, continuing into the evening.
 - **08:05 UTC** — maintenance began, estimated at around 10 hours.
