@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Brief burst of API errors during database maintenance",
+  "createdAt": "2026-07-26 18:24:00 +0000 UTC",
+  "permalink": "https://status.acoustid.org/issues/2026-07-26-api-errors-evening/",
+  "severity": "disrupted",
+  "resolved": "true",
+  "informational": "<no value>",
+  "resolvedAt": "2026-07-26 18:26:00",
+  "affected": ["API"],
+  "filename": "2026-07-26-api-errors-evening.md",
+  "body": "\u003cp\u003eA brief burst of API requests failed during planned database maintenance,\nlasting under a minute. No data was lost — affected requests failed outright and\ncould be retried.\u003c/p\u003e\n"
+}

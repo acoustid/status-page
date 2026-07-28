@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Redis Down",
+  "createdAt": "2020-01-22 15:56:09 +0000 UTC",
+  "permalink": "https://status.acoustid.org/issues/2020-01-22-redis-downtime/",
+  "severity": "disrupted",
+  "resolved": "true",
+  "informational": "<no value>",
+  "resolvedAt": "2020-01-22 15:01:21",
+  "affected": ["API", "Website", "Import"],
+  "filename": "2020-01-22-redis-downtime.md",
+  "body": "\u003cp\u003eMost services are having problems because of our Redis DB cluster unexpectedly restarting.\u003c/p\u003e\n"
+}

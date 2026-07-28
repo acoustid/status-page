@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Post-Migration Website Issues",
+  "createdAt": "2019-10-24 16:24:00 +0000 UTC",
+  "permalink": "https://status.acoustid.org/issues/2019-10-24-post-migration-website-issues/",
+  "severity": "disrupted",
+  "resolved": "true",
+  "informational": "<no value>",
+  "resolvedAt": "2019-10-27 15:20:00",
+  "affected": ["Website"],
+  "filename": "2019-10-24-post-migration-website-issues.md",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - All website issues have been resolved.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - After migration the rest of AcoustID\u0026rsquo;s infrastructure to Kubernetes, the website has a few known issues.\u003c/p\u003e\n"
+}

@@ -1,0 +1,114 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      
+      <title>AcoustID Status</title>
+      <link>https://status.acoustid.org/</link>
+      <description>Incident history</description>
+      <generator>github.com/cstate</generator>
+      <language>en</language>
+      
+      <lastBuildDate>Sun, 26 Jul 2026 20:50:00 +0000</lastBuildDate>
+      
+      
+      
+        <atom:link href="https://status.acoustid.org/index.xml" rel="self" type="application/rss+xml" />
+      
+      
+      
+        <item>
+          <title>Delayed processing of submitted fingerprints</title>
+          <link>https://status.acoustid.org/issues/2026-07-26-import-backlog/</link>
+          <pubDate>Sun, 26 Jul 2026 20:50:00 +0000</pubDate>
+          <guid>https://status.acoustid.org/issues/2026-07-26-import-backlog/</guid>
+          <category></category>
+          <description>&lt;p&gt;&lt;strong&gt;As of 13:30 UTC:&lt;/strong&gt; about 80,000 submissions are still queued, down from
+473,000 this morning, and processing is running at around 85,000 per hour. We
+expect the backlog to clear shortly. Nothing has been lost — submissions are
+queued and are being processed. Lookups and the website are not affected.&lt;/p&gt;
+&lt;p&gt;Earlier updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;12:30 UTC&lt;/strong&gt; — about 143,000 remaining, processing around 55,000 per hour.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;11:10 UTC&lt;/strong&gt; — about 190,000 remaining, processing around 68,000 per hour.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resolved] Brief burst of API errors during database maintenance</title>
+          <link>https://status.acoustid.org/issues/2026-07-26-api-errors-evening/</link>
+          <pubDate>Sun, 26 Jul 2026 18:24:00 +0000</pubDate>
+          <guid>https://status.acoustid.org/issues/2026-07-26-api-errors-evening/</guid>
+          <category>2026-07-26 18:26:00</category>
+          <description>&lt;p&gt;A brief burst of API requests failed during planned database maintenance,
+lasting under a minute. No data was lost — affected requests failed outright and
+could be retried.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resolved] API errors during database maintenance</title>
+          <link>https://status.acoustid.org/issues/2026-07-26-api-errors-morning/</link>
+          <pubDate>Sun, 26 Jul 2026 10:45:00 +0000</pubDate>
+          <guid>https://status.acoustid.org/issues/2026-07-26-api-errors-morning/</guid>
+          <category>2026-07-26 11:05:00</category>
+          <description>&lt;p&gt;A subset of API requests failed for about 20 minutes during planned database
+maintenance. No data was lost — affected requests failed outright and could be
+retried.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resolved] All AcoustID services are unavailable</title>
+          <link>https://status.acoustid.org/issues/2021-03-02-global-downtime/</link>
+          <pubDate>Tue, 02 Mar 2021 15:00:00 +0000</pubDate>
+          <guid>https://status.acoustid.org/issues/2021-03-02-global-downtime/</guid>
+          <category>2021-03-05 12:00:00</category>
+          <description>&lt;p&gt;All services are having problems due to a large-scale incident. We are working on resolving the problem as soon as possible.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resolved] App DB Connection Errors</title>
+          <link>https://status.acoustid.org/issues/2020-01-24-app-db-connection-errors/</link>
+          <pubDate>Fri, 24 Jan 2020 07:24:25 +0000</pubDate>
+          <guid>https://status.acoustid.org/issues/2020-01-24-app-db-connection-errors/</guid>
+          <category>2020-01-24 07:28:31</category>
+          <description>&lt;p&gt;Most services are having problems due to failing connections to the PostgreSQL database (app).&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resolved] Redis Down</title>
+          <link>https://status.acoustid.org/issues/2020-01-22-redis-downtime/</link>
+          <pubDate>Wed, 22 Jan 2020 15:56:09 +0000</pubDate>
+          <guid>https://status.acoustid.org/issues/2020-01-22-redis-downtime/</guid>
+          <category>2020-01-22 15:01:21</category>
+          <description>&lt;p&gt;Most services are having problems because of our Redis DB cluster unexpectedly restarting.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resolved] Import Stopped</title>
+          <link>https://status.acoustid.org/issues/2019-10-24-import-stopped/</link>
+          <pubDate>Thu, 24 Oct 2019 16:24:00 +0000</pubDate>
+          <guid>https://status.acoustid.org/issues/2019-10-24-import-stopped/</guid>
+          <category>2019-10-30 12:00:00</category>
+          <description>&lt;p&gt;While we are migrating the master database to our new Kubernetes cluster, submission import process is stopped. It will be restored in a few days.&lt;/p&gt;
+</description>
+        </item>
+      
+        <item>
+          <title>[Resolved] Post-Migration Website Issues</title>
+          <link>https://status.acoustid.org/issues/2019-10-24-post-migration-website-issues/</link>
+          <pubDate>Thu, 24 Oct 2019 16:24:00 +0000</pubDate>
+          <guid>https://status.acoustid.org/issues/2019-10-24-post-migration-website-issues/</guid>
+          <category>2019-10-27 15:20:00</category>
+          <description>&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; - All website issues have been resolved.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - After migration the rest of AcoustID&amp;rsquo;s infrastructure to Kubernetes, the website has a few known issues.&lt;/p&gt;
+</description>
+        </item>
+      
+    </channel>
+  </rss>
+

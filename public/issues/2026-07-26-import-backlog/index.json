@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Delayed processing of submitted fingerprints",
+  "createdAt": "2026-07-26 20:50:00 +0000 UTC",
+  "permalink": "https://status.acoustid.org/issues/2026-07-26-import-backlog/",
+  "severity": "disrupted",
+  "resolved": "false",
+  "informational": "<no value>",
+  "resolvedAt": "<no value>",
+  "affected": ["Import"],
+  "filename": "2026-07-26-import-backlog.md",
+  "body": "\u003cp\u003e\u003cstrong\u003eAs of 13:30 UTC:\u003c/strong\u003e about 80,000 submissions are still queued, down from\n473,000 this morning, and processing is running at around 85,000 per hour. We\nexpect the backlog to clear shortly. Nothing has been lost — submissions are\nqueued and are being processed. Lookups and the website are not affected.\u003c/p\u003e\n\u003cp\u003eEarlier updates:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e12:30 UTC\u003c/strong\u003e — about 143,000 remaining, processing around 55,000 per hour.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e11:10 UTC\u003c/strong\u003e — about 190,000 remaining, processing around 68,000 per hour.\u003c/li\u003e\n\u003c/ul\u003e\n"
+}

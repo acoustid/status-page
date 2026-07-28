@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "Import Stopped",
+  "createdAt": "2019-10-24 16:24:00 +0000 UTC",
+  "permalink": "https://status.acoustid.org/issues/2019-10-24-import-stopped/",
+  "severity": "down",
+  "resolved": "true",
+  "informational": "<no value>",
+  "resolvedAt": "2019-10-30 12:00:00",
+  "affected": ["Import"],
+  "filename": "2019-10-24-import-stopped.md",
+  "body": "\u003cp\u003eWhile we are migrating the master database to our new Kubernetes cluster, submission import process is stopped. It will be restored in a few days.\u003c/p\u003e\n"
+}

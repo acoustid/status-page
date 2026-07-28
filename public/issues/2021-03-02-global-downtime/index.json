@@ -1,0 +1,13 @@
+{
+  "is": "issue",
+  "title": "All AcoustID services are unavailable",
+  "createdAt": "2021-03-02 15:00:00 +0000 UTC",
+  "permalink": "https://status.acoustid.org/issues/2021-03-02-global-downtime/",
+  "severity": "down",
+  "resolved": "true",
+  "informational": "<no value>",
+  "resolvedAt": "2021-03-05 12:00:00",
+  "affected": ["API", "Website", "Import"],
+  "filename": "2021-03-02-global-downtime.md",
+  "body": "\u003cp\u003eAll services are having problems due to a large-scale incident. We are working on resolving the problem as soon as possible.\u003c/p\u003e\n"
+}

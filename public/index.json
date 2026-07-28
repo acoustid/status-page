@@ -1,0 +1,60 @@
+
+
+
+
+
+{
+  "is": "index",
+  "cStateVersion": "4.4",
+  "apiVersion": "1.0.0",
+  "title": "AcoustID Status",
+  "languageCodeHTML": "en",
+  "languageCode": "en",
+  "baseURL": "https://status.acoustid.org", 
+  "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here. Live traffic and processing metrics are on our [public dashboard](https://acoustid.grafana.net/public-dashboards/1249b428418a494daf09e38d6f331d92).",
+  "logo": "https://status.acoustid.org/logo.png",
+  "categories": [
+    
+      {
+        "name": "Uncategorized",
+        "hideTitle": true,
+        "closedByDefault": false
+      }
+    
+  ],
+  "systems": [
+    
+      {
+        "name": "API",
+        "category": "Uncategorized"
+      }
+    ,
+      {
+        "name": "Website",
+        "category": "Uncategorized"
+      }
+    ,
+      {
+        "name": "Import",
+        "category": "Uncategorized"
+      }
+    
+  ],
+
+  
+  "buildDate": "2026-07-27",
+  "buildTime": "15:33",
+  "buildTimezone": "CEST",
+  "summaryStatus":
+  
+    "disrupted",
+  
+  "colorBrand": "#0a0c0f",
+  "colorOk": "#008000",
+  "colorDisrupted": "#cc4400",
+  "colorDown": "#e60000",
+  "colorNotice": "#24478f",
+  "alwaysKeepBrandColor": "true",
+
+  "googleAnalytics": "UA-00000000-1"
+}
