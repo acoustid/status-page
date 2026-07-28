@@ -4,17 +4,15 @@ date: 2026-07-28 06:40:00
 resolved: false
 severity: notice
 affected:
-  - Website
   - Import
 section: issue
 ---
 
-**As of 15:05 UTC: this is taking longer than we expected.** The largest part of the data has been copied and the work is continuing, but we now expect it to run into the evening rather than finishing around 18:00 UTC as originally estimated. We will update this notice as it progresses.
+**As of 17:50 UTC: the maintenance is largely complete.** Lookups, the website and submissions are all working normally again, and manual edits are available.
 
-While it is in progress, manual edits on the website are unavailable, and newly submitted fingerprints are not indexed until it completes. Submissions made during this time are queued and will be indexed once it finishes.
-
-Lookups and submissions are unaffected. Searches work as normal, and submissions are accepted as usual.
+The one thing still outstanding is that newly submitted fingerprints are not yet being indexed. Submissions made in the meantime are queued and nothing is lost; we will update this notice once that has caught up.
 
 Earlier updates:
 
+- **15:05 UTC** — running longer than expected, continuing into the evening.
 - **08:05 UTC** — maintenance began, estimated at around 10 hours.
