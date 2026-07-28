@@ -9,10 +9,8 @@ affected:
 section: issue
 ---
 
-**As of 07:30 UTC: this has not started yet.** The service is operating normally, and we will update this notice when the work begins.
+**As of 08:05 UTC: this maintenance is now in progress.** It is expected to take around 10 hours.
 
-We are planning maintenance on the fingerprint database, expected to take around 10 hours once it starts.
+While it is in progress, manual edits on the website are unavailable, and newly submitted fingerprints are not indexed until it completes.
 
-While it is in progress, manual edits on the website will be unavailable, and newly submitted fingerprints will not be indexed until it completes.
-
-Lookups and submissions are unaffected throughout. Searches work as normal, and submissions are accepted and queued as usual.
+Lookups and submissions are unaffected. Searches work as normal, and submissions are accepted and queued as usual.
