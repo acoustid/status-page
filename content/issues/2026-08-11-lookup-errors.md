@@ -9,8 +9,10 @@ affected:
 section: issue
 ---
 
-Fingerprint lookups returned errors for about five minutes late on 11 August.
-Submissions were affected to a much smaller degree over the same window.
+Fingerprint lookups returned errors for about five minutes late on 11 August,
+after a network switch failure at our hosting provider took one of our servers
+offline. Submissions were affected to a much smaller degree over the same
+window.
 
 The service recovered on its own and lookups have been working normally since
 22:21 UTC. Affected requests failed outright rather than returning a wrong
