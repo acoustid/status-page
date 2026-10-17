@@ -33,3 +33,10 @@ answered "no match" rather than reporting an error when it could not reach the
 data it needed. That machine has been taken out of service and the remaining
 capacity is handling traffic normally. We are still investigating why it
 degraded.
+
+**Update, 10:00 UTC.** We have found the cause. A network fault on that machine
+had cut its data throughput to a tiny fraction of normal while leaving it
+looking healthy to our automated checks, so it kept being given work it could
+not carry. It stays out of service until the fault is fixed, and we have removed
+the remaining pieces of the service that were still relying on it. Lookups and
+submissions are working normally.
