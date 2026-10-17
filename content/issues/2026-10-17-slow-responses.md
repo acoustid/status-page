@@ -6,6 +6,7 @@ severity: disrupted
 affected:
   - API
   - Website
+  - Data export
 section: issue
 ---
 

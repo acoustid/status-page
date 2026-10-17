@@ -136,6 +136,12 @@ params:
       category: Uncategorized
     - name: Import
       category: Uncategorized
+    # The public data files at data.acoustid.org. Separate from Website because
+    # they are served from their own host and fail independently -- marking
+    # Website degraded for a download problem misleads people whose lookups
+    # are fine.
+    - name: Data export
+      category: Uncategorized
 
   # What date format to use?
   #
