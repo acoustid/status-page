@@ -26,23 +26,12 @@ that returned a match were correct, and lookups made since 07:31 are correct.
 
 Unaffected: any lookups outside that window.
 
-One of the machines serving the database fell behind in a way that slowed
-writes across most of the service, and the component that matches fingerprints
-answered "no match" rather than reporting an error when it could not reach the
-data it needed. That machine has been taken out of service and the remaining
-capacity is handling traffic normally. We are still investigating why it
-degraded.
+One of the machines serving the database fell behind, which slowed writes across
+most of the service. The component that matches fingerprints answered "no match"
+rather than returning an error when it could not reach the data it needed.
 
-**Update, 10:00 UTC.** We have found the cause. A network fault on that machine
-had cut its data throughput to a tiny fraction of normal while leaving it
-looking healthy to our automated checks, so it kept being given work it could
-not carry. It stays out of service until the fault is fixed, and we have removed
-the remaining pieces of the service that were still relying on it. Lookups and
+**Update, 10:00 UTC.** The cause was a network fault on that machine, which cut
+its throughput to a fraction of normal. It is out of service. Lookups and
 submissions are working normally.
 
-**The public data file downloads are affected too, and are now tracked in their
-own entry.** They are served from the same machine and have since been taken
-offline deliberately so that the remaining capacity goes to the API and the
-website. Nothing is missing or corrupted -- the files are complete and correct.
-An earlier version of this note said the data files were unaffected; that was
-wrong, and we have corrected it.
+The public data file downloads are also affected and are tracked separately.
