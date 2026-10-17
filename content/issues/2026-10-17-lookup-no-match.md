@@ -40,9 +40,9 @@ not carry. It stays out of service until the fault is fixed, and we have removed
 the remaining pieces of the service that were still relying on it. Lookups and
 submissions are working normally.
 
-**Downloads of the public data files are still slow.** Those files are served
-from the same machine, so downloading them is currently far slower than normal
-and large files may be impractical to fetch. Nothing is missing or corrupted --
-the files are complete and correct, just slow to transfer. An earlier version of
-this note said the data files were unaffected; that was wrong, and we have
-corrected it. We will update here when transfer speeds are back to normal.
+**The public data file downloads are affected too, and are now tracked in their
+own entry.** They are served from the same machine and have since been taken
+offline deliberately so that the remaining capacity goes to the API and the
+website. Nothing is missing or corrupted -- the files are complete and correct.
+An earlier version of this note said the data files were unaffected; that was
+wrong, and we have corrected it.
