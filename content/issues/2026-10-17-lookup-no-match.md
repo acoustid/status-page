@@ -24,8 +24,7 @@ reliable — at roughly one in four, it is worth re-checking anything you cached
 or stored from that period rather than assuming it was a genuine miss. Lookups
 that returned a match were correct, and lookups made since 07:31 are correct.
 
-Unaffected: the public data files at data.acoustid.org, and any lookups outside
-that window.
+Unaffected: any lookups outside that window.
 
 One of the machines serving the database fell behind in a way that slowed
 writes across most of the service, and the component that matches fingerprints
@@ -40,3 +39,10 @@ looking healthy to our automated checks, so it kept being given work it could
 not carry. It stays out of service until the fault is fixed, and we have removed
 the remaining pieces of the service that were still relying on it. Lookups and
 submissions are working normally.
+
+**Downloads of the public data files are still slow.** Those files are served
+from the same machine, so downloading them is currently far slower than normal
+and large files may be impractical to fetch. Nothing is missing or corrupted --
+the files are complete and correct, just slow to transfer. An earlier version of
+this note said the data files were unaffected; that was wrong, and we have
+corrected it. We will update here when transfer speeds are back to normal.
