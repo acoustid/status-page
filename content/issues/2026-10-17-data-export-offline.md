@@ -1,17 +1,19 @@
 ---
-title: Public data file downloads are offline
+title: Public data file downloads were offline
 date: 2026-10-17 11:05:00
-resolved: false
+resolved: true
+resolvedWhen: 2026-10-18 12:00:00
 severity: down
 affected:
   - Data export
 section: issue
 ---
 
-The public data files at data.acoustid.org are offline. Requests to them return
-an error.
+**Resolved.** The public data files at data.acoustid.org are available again and
+downloading at normal speed.
 
-No data has been lost and the files are complete.
+No data was lost and every file is complete.
 
-Downloads are expected back during 18 October. Scheduled jobs that fetch these
-files will fail until then.
+Downloads returned an error from about 11:05 UTC on 17 October until about
+12:00 UTC on 18 October. Scheduled jobs that fetch these files would have
+failed during that window; the files they missed are all present now.
