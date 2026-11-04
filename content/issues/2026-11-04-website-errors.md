@@ -29,6 +29,9 @@ are working on raising that limit.
 
 Progress:
 
+- **23:00 UTC, 4 November** — the episodes are becoming more frequent and more
+  severe: three in the last forty minutes, with up to about two in five page
+  loads failing at the worst moments. The API remains unaffected.
 - **22:00 UTC, 4 November** — quiet for the last half hour, but the problem has
   recurred several times this evening, so this is left open rather than marked
   resolved.
