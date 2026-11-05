@@ -8,10 +8,14 @@ affected:
 section: issue
 ---
 
-**Ongoing and getting worse.** Since about 19:40 UTC on 4 November the website
-has been returning errors instead of loading pages. It began as separate
-episodes with normal service in between, but has become much more frequent
-overnight — around half of page loads are currently failing.
+**The website has been working normally since about 02:00 UTC on 5 November.**
+This is being left open for now rather than marked resolved, because the
+underlying cause has not yet been addressed and the quiet period so far covers
+only the overnight hours, when traffic is lowest.
+
+Between about 19:40 and 02:00 UTC the website returned errors instead of loading
+pages — at first in separate episodes with normal service in between, then almost
+continuously, with around half of page loads failing at the worst point.
 
 **The API is not affected.** Fingerprint lookups and submissions have continued
 to work normally throughout, so applications such as Picard are unaffected. This
@@ -29,6 +33,9 @@ are working on raising that limit.
 
 Progress:
 
+- **06:00 UTC, 5 November** — no errors for the last four hours; the website is
+  loading normally. Kept open until it has been through a busier part of the day,
+  since the cause is not yet fixed.
 - **02:00 UTC, 5 November** — substantially worse. Roughly half of all page
   loads failed over the last hour, up from about one in ten earlier in the
   evening, and the errors are now near-continuous rather than coming in
