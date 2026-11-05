@@ -8,10 +8,10 @@ affected:
 section: issue
 ---
 
-**The website has been working normally since about 02:00 UTC on 5 November.**
-This is being left open for now rather than marked resolved, because the
-underlying cause has not yet been addressed and the quiet period so far covers
-only the overnight hours, when traffic is lowest.
+**The website has been largely normal since about 02:00 UTC on 5 November**,
+with one brief return of errors during the morning. This is being left open
+rather than marked resolved, because the underlying cause has not yet been
+addressed.
 
 Between about 19:40 and 02:00 UTC the website returned errors instead of loading
 pages — at first in separate episodes with normal service in between, then almost
@@ -33,6 +33,10 @@ are working on raising that limit.
 
 Progress:
 
+- **12:00 UTC, 5 November** — errors returned for about an hour during the
+  morning, affecting a small share of page loads — far less than overnight — and
+  have cleared again. Traffic is now several times higher than it was overnight
+  and the site is keeping up.
 - **06:00 UTC, 5 November** — no errors for the last four hours; the website is
   loading normally. Kept open until it has been through a busier part of the day,
   since the cause is not yet fixed.
