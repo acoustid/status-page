@@ -8,10 +8,10 @@ affected:
 section: issue
 ---
 
-**Ongoing, intermittent.** Since about 19:40 UTC on 4 November the website has
-had repeated episodes, each lasting roughly twenty to forty minutes, where a
-large share of pages return an error instead of loading. Between episodes the
-site works normally.
+**Ongoing and getting worse.** Since about 19:40 UTC on 4 November the website
+has been returning errors instead of loading pages. It began as separate
+episodes with normal service in between, but has become much more frequent
+overnight — around half of page loads are currently failing.
 
 **The API is not affected.** Fingerprint lookups and submissions have continued
 to work normally throughout, so applications such as Picard are unaffected. This
@@ -29,6 +29,10 @@ are working on raising that limit.
 
 Progress:
 
+- **02:00 UTC, 5 November** — substantially worse. Roughly half of all page
+  loads failed over the last hour, up from about one in ten earlier in the
+  evening, and the errors are now near-continuous rather than coming in
+  separate episodes. The API is still completely unaffected.
 - **23:00 UTC, 4 November** — the episodes are becoming more frequent and more
   severe: three in the last forty minutes, with up to about two in five page
   loads failing at the worst moments. The API remains unaffected.
