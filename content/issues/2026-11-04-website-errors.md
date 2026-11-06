@@ -8,10 +8,11 @@ affected:
 section: issue
 ---
 
-**The website has been largely normal since about 02:00 UTC on 5 November**,
-with one brief return of errors during the morning. This is being left open
-rather than marked resolved, because the underlying cause has not yet been
-addressed.
+**This is still happening, in episodes.** The worst was on the evening of
+4 November and the early hours of 5 November. Since then the website has been
+normal most of the time, but errors have returned several times — including for
+a few hours early on 6 November. It is left open because the underlying cause
+has not yet been addressed.
 
 Between about 19:40 and 02:00 UTC the website returned errors instead of loading
 pages — at first in separate episodes with normal service in between, then almost
@@ -33,6 +34,9 @@ are working on raising that limit.
 
 Progress:
 
+- **11:00 UTC, 6 November** — errors returned for several hours overnight, from
+  about 01:00 to 05:00 UTC, affecting up to roughly one in seven page loads at
+  the worst point. It has been clear since. The API was unaffected throughout.
 - **12:00 UTC, 5 November** — errors returned for about an hour during the
   morning, affecting a small share of page loads — far less than overnight — and
   have cleared again. Traffic is now several times higher than it was overnight
