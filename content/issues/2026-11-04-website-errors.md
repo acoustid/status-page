@@ -1,42 +1,49 @@
 ---
 title: Intermittent errors on the website
 date: 2026-11-04 19:40:00
-resolved: false
+resolved: true
+resolvedWhen: 2026-11-06 04:45:00
 severity: disrupted
 affected:
   - Website
 section: issue
 ---
 
-**This is still happening, in episodes.** The worst was on the evening of
-4 November and the early hours of 5 November. Since then the website has been
-normal most of the time, but errors have returned several times — including for
-a few hours early on 6 November. It is left open because the underlying cause
-has not yet been addressed.
+**Resolved.** The website has been loading normally since about 05:00 UTC on
+6 November. No data was lost and nothing in the database was affected.
 
-Between about 19:40 and 02:00 UTC the website returned errors instead of loading
-pages — at first in separate episodes with normal service in between, then almost
-continuously, with around half of page loads failing at the worst point.
+**The API was never affected.** Fingerprint lookups and submissions worked
+normally throughout, so applications such as Picard were unaffected at every
+point during this. It was limited to browsing the website itself.
 
-**The API is not affected.** Fingerprint lookups and submissions have continued
-to work normally throughout, so applications such as Picard are unaffected. This
-is limited to browsing the website itself.
+The cause was automated scraping by an AI crawler. One of our pages compares two
+fingerprints against each other, and because any two fingerprints can be
+compared there is a practically unlimited number of those pages. A crawler
+worked its way through them, which added up to millions of requests for pages
+that nobody actually reads, and more than a terabyte of traffic over the past
+month.
 
-Affected pages fail outright rather than showing wrong information, so there is
-nothing to re-check — anything that loaded was correct. If a page errors,
-reloading it a little later usually works.
+Each of those pages has to query the database, and there is a limit on how many
+such queries the website can have in flight at once. The crawler used the limit
+up, so ordinary page loads had nothing left to use and failed instead. That is
+why it came and went in episodes, and why it was worst in the early hours of the
+morning when the crawling was heaviest.
 
-No data has been lost and nothing in the database is affected.
+Fingerprint comparison pages are now blocked from automated access, so this
+traffic cannot build up the same way again. The pages still work normally for
+people browsing the site.
 
-The cause is an internal limit on how many pages the website can look up at
-once being reached, which makes further requests fail until the load eases. We
-are working on raising that limit.
+Pages failed outright rather than showing wrong information, so there is nothing
+to re-check — anything that loaded was correct.
 
 Progress:
 
+- **11:30 UTC, 6 November** — errors stopped at about 04:45 UTC and the site
+  has been clear since. The cause has been identified as AI crawler traffic and
+  the affected pages are now protected against it.
 - **11:00 UTC, 6 November** — errors returned for several hours overnight, from
   about 01:00 to 05:00 UTC, affecting up to roughly one in seven page loads at
-  the worst point. It has been clear since. The API was unaffected throughout.
+  the worst point. The API was unaffected throughout.
 - **12:00 UTC, 5 November** — errors returned for about an hour during the
   morning, affecting a small share of page loads — far less than overnight — and
   have cleared again. Traffic is now several times higher than it was overnight
